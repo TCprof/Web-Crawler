@@ -13,7 +13,7 @@ class Spider:
     crawledFile = ''
     queue = set()
     crawled = set()
-
+    #assigns the correct varaible names to the right variables
     def __init__(self, projectName, baseUrl, domainName):
         Spider.projectName = projectName
         Spider.baseUrl = baseUrl
